@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.flower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 550px;
+    width: 600px;
+}
+
+span{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    box-shadow: 0 0 10px inset red, 0 0 20px inset red;
+    border-radius: 100px 0px;
+}
+
+span:nth-child(4){
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 29, 0);
+    border-radius: 50%;
+    box-shadow: 0 0 5px inset green, 0 0 20px inset rgb(0, 33, 0), 0 0 40px inset rgb(0, 21, 0);
+
+}
+span:nth-child(1){
+    transform: rotate(90deg);
+    left: 155px;
+    top: 155px;
+}
+span:nth-child(2){
+    transform: rotate(120deg);
+    left: 220px;
+    top: 110px;
+}
+span:nth-child(3){
+    transform: rotate(150deg);
+    right: 210px;
+    top: 110px;
+}
+span:nth-child(5){
+    transform: rotate(190deg);
+    right: 150px;
+    top: 160px;
+}
+span:nth-child(6){
+    transform: rotate(230deg);
+    right: 130px;
+    top: 240px;
+}
+span:nth-child(7){
+    transform: rotate(270deg);
+    right: 170px;
+    top: 315px;
+}
+span:nth-child(8){
+    transform: rotate(310deg);
+    right: 250px;
+    top: 345px;
+}
+span:nth-child(9){
+    transform: rotate(350deg);
+    left: 175px;
+    top: 320px;
+}
+span:nth-child(10){
+    transform: rotate(30deg);
+    left: 130px;
+    top: 250px;
+}
